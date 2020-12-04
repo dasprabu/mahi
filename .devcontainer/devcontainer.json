@@ -12,7 +12,8 @@
         "fernandoescolar.vscode-solution-explorer",
 		"eamodio.gitlens",
 		"ms-vscode.powershell",
-		"shd101wyy.markdown-preview-enhanced"
+        "shd101wyy.markdown-preview-enhanced",
+        "ms-mssql.mssql"
     ],
     "shutdownAction": "stopCompose"
 }
