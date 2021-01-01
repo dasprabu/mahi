@@ -15,6 +15,6 @@
         "shd101wyy.markdown-preview-enhanced",
         "ms-mssql.mssql"
     ],
-    "remoteUser": "mahi", 
+    "remoteUser": "mahi",
     "shutdownAction": "stopCompose"
 }
