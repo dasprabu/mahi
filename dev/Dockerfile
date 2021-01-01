@@ -16,7 +16,7 @@ ENTRYPOINT ["/entrypoint.sh"]
 
 # Install dotnet-outdated (see
 # https://github.com/dotnet-outdated/dotnet-outdated)
-RUN runuser -l faker -c “dotnet tool install --global dotnet-outdated-tool”
+RUN runuser -l faker -c "dotnet tool install --global dotnet-outdated-tool"
 # runuser installs it as if the non-root user was installing it.
 # This makes it available to that non-root user
-ENV PATH “$PATH:/home/faker/.dotnet/tools”
+ENV PATH "$PATH:/home/faker/.dotnet/tools"
