@@ -1,7 +1,7 @@
 {
     "name": "CmdLine dev container",
     "dockerComposeFile": [
-        "../dev/docker-compose.yml"
+        "../dev/Docker-compose.yml"
     ],
     "service": "cmdline-dev",
     "workspaceFolder": "/app",
